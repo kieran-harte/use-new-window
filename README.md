@@ -1,6 +1,6 @@
 # use-new-window
 
-A React hook that opens and manages a new browser window.
+A React hook that opens and manages a new browser window/tab.
 
 ---
 
