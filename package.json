@@ -1,7 +1,7 @@
 {
   "name": "use-new-window",
   "description": "React hook that opens and manages a new browser window",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Kieran Harte",
   "license": "MIT",
   "homepage": "https://github.com/kieran-harte/use-new-window",
