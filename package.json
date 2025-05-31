@@ -1,0 +1,37 @@
+{
+  "name": "use-new-window",
+  "description": "React hook that opens and manages a new browser window",
+  "version": "1.0.0",
+  "author": "Kieran Harte",
+  "license": "MIT",
+  "homepage": "https://github.com/kieran-harte/use-new-window",
+  "bugs": "https://github.com/kieran-harte/use-new-window/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kieran-harte/use-new-window.git"
+  },
+  "main": "./dist/useNewWindow.js",
+  "module": "./dist/useNewWindow.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/useNewWindow.js",
+      "import": "./dist/useNewWindow.mjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/useNewWindow.ts --dts --format esm,cjs --clean"
+  },
+  "peerDependencies": {
+    "react": "^18 || ^19"
+  },
+  "devDependencies": {
+    "@types/react": "^19",
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3"
+  }
+}
