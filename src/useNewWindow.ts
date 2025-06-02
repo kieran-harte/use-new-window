@@ -39,7 +39,7 @@ export function useNewWindow(url: string, features = '', name = '_blank') {
     if (!isOpen) return
     const id = setInterval(() => {
       if (handle.current?.closed) close()
-    }, 400)
+    }, 200)
 
     return () => clearInterval(id)
   }, [isOpen])
